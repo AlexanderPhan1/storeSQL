@@ -1,8 +1,8 @@
-drop database Store;
+drop database store;
 
-create database Store;
+create database store;
 
-use Store;
+use store;
 
 create table 'Products' (
   `itemID` INT NOT NULL AUTO_INCREMENT,
