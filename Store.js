@@ -6,11 +6,11 @@ var inquirer = require('inquirer');
 //starting connection to my database below
 
 var connectionCommence = mysql.createConnection({
-	host: "localhost",
+	host: "127.0.0.1",
 	port: 3305,
 	user: "root",
-	password: "root",
-	database: "Store"
+	password: "",
+	database: "local host"
 });
 
 // connection to check if databse is being activated
